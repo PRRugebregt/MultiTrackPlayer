@@ -19,22 +19,32 @@
 		0184283127ADC0910031CA22 /* LoadSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184283027ADC0910031CA22 /* LoadSongViewController.swift */; };
 		0184283327ADC2F80031CA22 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184283227ADC2F80031CA22 /* Song.swift */; };
 		0184283527ADC6770031CA22 /* SongLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184283427ADC6770031CA22 /* SongLoader.swift */; };
-		0184283927ADD3BC0031CA22 /* Booom_keyboards.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184283627ADD3BC0031CA22 /* Booom_keyboards.mp3 */; };
-		0184283A27ADD3BC0031CA22 /* Booom_drums.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184283727ADD3BC0031CA22 /* Booom_drums.mp3 */; };
-		0184283B27ADD3BC0031CA22 /* Booom_guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184283827ADD3BC0031CA22 /* Booom_guitar.mp3 */; };
 		0184284127AF2D720031CA22 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184284027AF2D720031CA22 /* SettingsViewController.swift */; };
 		0184284527B1C8CF0031CA22 /* MockMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184284427B1C8CF0031CA22 /* MockMusicPlayer.swift */; };
 		0184284927B266890031CA22 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184284827B266890031CA22 /* Track.swift */; };
+		0184285627B26B770031CA22 /* RWY_guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184284A27B26B760031CA22 /* RWY_guitar.mp3 */; };
+		0184285727B26B770031CA22 /* RWY_keyboards2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184284B27B26B760031CA22 /* RWY_keyboards2.mp3 */; };
+		0184285827B26B770031CA22 /* RWY_backingvocals2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184284C27B26B760031CA22 /* RWY_backingvocals2.mp3 */; };
+		0184285927B26B770031CA22 /* RWY_guitar2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184284D27B26B760031CA22 /* RWY_guitar2.mp3 */; };
+		0184285A27B26B770031CA22 /* RWY_backingvocals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184284E27B26B760031CA22 /* RWY_backingvocals.mp3 */; };
+		0184285B27B26B770031CA22 /* RWY_drums.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184284F27B26B760031CA22 /* RWY_drums.mp3 */; };
+		0184285C27B26B770031CA22 /* RWY_bass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184285027B26B770031CA22 /* RWY_bass.mp3 */; };
+		0184285D27B26B770031CA22 /* RWY_trumpet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184285127B26B770031CA22 /* RWY_trumpet.mp3 */; };
+		0184285E27B26B770031CA22 /* RWY_vocals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184285227B26B770031CA22 /* RWY_vocals.mp3 */; };
+		0184285F27B26B770031CA22 /* RWY_other.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184285327B26B770031CA22 /* RWY_other.mp3 */; };
+		0184286027B26B770031CA22 /* RWY_other2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184285427B26B770031CA22 /* RWY_other2.mp3 */; };
+		0184286127B26B770031CA22 /* RWY_keyboards.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184285527B26B770031CA22 /* RWY_keyboards.mp3 */; };
+		0184286327B29DA80031CA22 /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184286227B29DA80031CA22 /* MusicPlayerTests.swift */; };
 		01ED41E527A5A4B900BB944C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED41E427A5A4B900BB944C /* AppDelegate.swift */; };
 		01ED41E727A5A4B900BB944C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED41E627A5A4B900BB944C /* SceneDelegate.swift */; };
 		01ED41E927A5A4B900BB944C /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED41E827A5A4B900BB944C /* PlayerViewController.swift */; };
 		01ED41EC27A5A4B900BB944C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01ED41EA27A5A4B900BB944C /* Main.storyboard */; };
-		01ED41EF27A5A4B900BB944C /* AnikaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01ED41ED27A5A4B900BB944C /* AnikaApp.xcdatamodeld */; };
+		01ED41EF27A5A4B900BB944C /* TrackModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01ED41ED27A5A4B900BB944C /* TrackModel.xcdatamodeld */; };
 		01ED41F127A5A4BA00BB944C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01ED41F027A5A4BA00BB944C /* Assets.xcassets */; };
 		01ED41F427A5A4BA00BB944C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01ED41F227A5A4BA00BB944C /* LaunchScreen.storyboard */; };
-		01ED41FF27A5A4BA00BB944C /* AnikaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED41FE27A5A4BA00BB944C /* AnikaAppTests.swift */; };
-		01ED420927A5A4BA00BB944C /* AnikaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED420827A5A4BA00BB944C /* AnikaAppUITests.swift */; };
-		01ED420B27A5A4BA00BB944C /* AnikaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED420A27A5A4BA00BB944C /* AnikaAppUITestsLaunchTests.swift */; };
+		01ED41FF27A5A4BA00BB944C /* MultiTrackPlayerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED41FE27A5A4BA00BB944C /* MultiTrackPlayerAppTests.swift */; };
+		01ED420927A5A4BA00BB944C /* MultiTrackPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED420827A5A4BA00BB944C /* MultiTrackPlayerUITests.swift */; };
+		01ED420B27A5A4BA00BB944C /* MultiTrackPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED420A27A5A4BA00BB944C /* MultiTrackPlayerUITestsLaunchTests.swift */; };
 		01ED421927A5A53A00BB944C /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED421727A5A53A00BB944C /* TrackViewController.swift */; };
 		01ED421A27A5A53A00BB944C /* TrackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01ED421827A5A53A00BB944C /* TrackViewController.xib */; };
 		01ED421C27A609B700BB944C /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED421B27A609B600BB944C /* MusicPlayer.swift */; };
@@ -71,13 +81,23 @@
 		0184283027ADC0910031CA22 /* LoadSongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadSongViewController.swift; sourceTree = "<group>"; };
 		0184283227ADC2F80031CA22 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		0184283427ADC6770031CA22 /* SongLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongLoader.swift; sourceTree = "<group>"; };
-		0184283627ADD3BC0031CA22 /* Booom_keyboards.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Booom_keyboards.mp3; sourceTree = "<group>"; };
-		0184283727ADD3BC0031CA22 /* Booom_drums.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Booom_drums.mp3; sourceTree = "<group>"; };
-		0184283827ADD3BC0031CA22 /* Booom_guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Booom_guitar.mp3; sourceTree = "<group>"; };
 		0184284027AF2D720031CA22 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0184284427B1C8CF0031CA22 /* MockMusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMusicPlayer.swift; sourceTree = "<group>"; };
 		0184284827B266890031CA22 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
-		01ED41E127A5A4B900BB944C /* AnikaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnikaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0184284A27B26B760031CA22 /* RWY_guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_guitar.mp3; sourceTree = "<group>"; };
+		0184284B27B26B760031CA22 /* RWY_keyboards2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_keyboards2.mp3; sourceTree = "<group>"; };
+		0184284C27B26B760031CA22 /* RWY_backingvocals2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_backingvocals2.mp3; sourceTree = "<group>"; };
+		0184284D27B26B760031CA22 /* RWY_guitar2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_guitar2.mp3; sourceTree = "<group>"; };
+		0184284E27B26B760031CA22 /* RWY_backingvocals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_backingvocals.mp3; sourceTree = "<group>"; };
+		0184284F27B26B760031CA22 /* RWY_drums.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_drums.mp3; sourceTree = "<group>"; };
+		0184285027B26B770031CA22 /* RWY_bass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_bass.mp3; sourceTree = "<group>"; };
+		0184285127B26B770031CA22 /* RWY_trumpet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_trumpet.mp3; sourceTree = "<group>"; };
+		0184285227B26B770031CA22 /* RWY_vocals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_vocals.mp3; sourceTree = "<group>"; };
+		0184285327B26B770031CA22 /* RWY_other.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_other.mp3; sourceTree = "<group>"; };
+		0184285427B26B770031CA22 /* RWY_other2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_other2.mp3; sourceTree = "<group>"; };
+		0184285527B26B770031CA22 /* RWY_keyboards.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_keyboards.mp3; sourceTree = "<group>"; };
+		0184286227B29DA80031CA22 /* MusicPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerTests.swift; sourceTree = "<group>"; };
+		01ED41E127A5A4B900BB944C /* MultiTrackPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTrackPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01ED41E427A5A4B900BB944C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01ED41E627A5A4B900BB944C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		01ED41E827A5A4B900BB944C /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
@@ -86,11 +106,11 @@
 		01ED41F027A5A4BA00BB944C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01ED41F327A5A4BA00BB944C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01ED41F527A5A4BA00BB944C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01ED41FA27A5A4BA00BB944C /* AnikaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnikaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		01ED41FE27A5A4BA00BB944C /* AnikaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnikaAppTests.swift; sourceTree = "<group>"; };
-		01ED420427A5A4BA00BB944C /* AnikaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnikaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		01ED420827A5A4BA00BB944C /* AnikaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnikaAppUITests.swift; sourceTree = "<group>"; };
-		01ED420A27A5A4BA00BB944C /* AnikaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnikaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01ED41FA27A5A4BA00BB944C /* MultiTrackPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiTrackPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01ED41FE27A5A4BA00BB944C /* MultiTrackPlayerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTrackPlayerAppTests.swift; sourceTree = "<group>"; };
+		01ED420427A5A4BA00BB944C /* MultiTrackPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiTrackPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01ED420827A5A4BA00BB944C /* MultiTrackPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTrackPlayerUITests.swift; sourceTree = "<group>"; };
+		01ED420A27A5A4BA00BB944C /* MultiTrackPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTrackPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		01ED421727A5A53A00BB944C /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
 		01ED421827A5A53A00BB944C /* TrackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackViewController.xib; sourceTree = "<group>"; };
 		01ED421B27A609B600BB944C /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
@@ -125,6 +145,18 @@
 		0184282F27A9F0570031CA22 /* mp3 */ = {
 			isa = PBXGroup;
 			children = (
+				0184284E27B26B760031CA22 /* RWY_backingvocals.mp3 */,
+				0184285027B26B770031CA22 /* RWY_bass.mp3 */,
+				0184285127B26B770031CA22 /* RWY_trumpet.mp3 */,
+				0184284F27B26B760031CA22 /* RWY_drums.mp3 */,
+				0184284A27B26B760031CA22 /* RWY_guitar.mp3 */,
+				0184284D27B26B760031CA22 /* RWY_guitar2.mp3 */,
+				0184285227B26B770031CA22 /* RWY_vocals.mp3 */,
+				0184285327B26B770031CA22 /* RWY_other.mp3 */,
+				0184284C27B26B760031CA22 /* RWY_backingvocals2.mp3 */,
+				0184285527B26B770031CA22 /* RWY_keyboards.mp3 */,
+				0184285427B26B770031CA22 /* RWY_other2.mp3 */,
+				0184284B27B26B760031CA22 /* RWY_keyboards2.mp3 */,
 				0184282527A9F04C0031CA22 /* backpocket_drums.mp3 */,
 				0184281D27A9F04B0031CA22 /* backpocket_bass.mp3 */,
 				0184282127A9F04C0031CA22 /* backpocket_percussion.mp3 */,
@@ -134,9 +166,6 @@
 				0184281E27A9F04B0031CA22 /* backpocket_vocals.mp3 */,
 				0184282427A9F04C0031CA22 /* backpocket_saxophone.mp3 */,
 				0184281F27A9F04B0031CA22 /* backpocket_trumpet.mp3 */,
-				0184283727ADD3BC0031CA22 /* Booom_drums.mp3 */,
-				0184283627ADD3BC0031CA22 /* Booom_keyboards.mp3 */,
-				0184283827ADD3BC0031CA22 /* Booom_guitar.mp3 */,
 			);
 			path = mp3;
 			sourceTree = "<group>";
@@ -199,10 +228,10 @@
 		01ED41D827A5A4B900BB944C = {
 			isa = PBXGroup;
 			children = (
-				01ED41E327A5A4B900BB944C /* AnikaApp */,
+				01ED41E327A5A4B900BB944C /* MultiTrackPlayer */,
 				0184282F27A9F0570031CA22 /* mp3 */,
-				01ED41FD27A5A4BA00BB944C /* AnikaAppTests */,
-				01ED420727A5A4BA00BB944C /* AnikaAppUITests */,
+				01ED41FD27A5A4BA00BB944C /* MultiTrackPlayerTests */,
+				01ED420727A5A4BA00BB944C /* MultiTrackPlayerUITests */,
 				01ED41E227A5A4B900BB944C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -210,14 +239,14 @@
 		01ED41E227A5A4B900BB944C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01ED41E127A5A4B900BB944C /* AnikaApp.app */,
-				01ED41FA27A5A4BA00BB944C /* AnikaAppTests.xctest */,
-				01ED420427A5A4BA00BB944C /* AnikaAppUITests.xctest */,
+				01ED41E127A5A4B900BB944C /* MultiTrackPlayer.app */,
+				01ED41FA27A5A4BA00BB944C /* MultiTrackPlayerTests.xctest */,
+				01ED420427A5A4BA00BB944C /* MultiTrackPlayerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		01ED41E327A5A4B900BB944C /* AnikaApp */ = {
+		01ED41E327A5A4B900BB944C /* MultiTrackPlayer */ = {
 			isa = PBXGroup;
 			children = (
 				0184284727B1EC880031CA22 /* Settings */,
@@ -230,34 +259,35 @@
 				0184283E27ADD96D0031CA22 /* View */,
 				01ED41F027A5A4BA00BB944C /* Assets.xcassets */,
 				01ED41F527A5A4BA00BB944C /* Info.plist */,
-				01ED41ED27A5A4B900BB944C /* AnikaApp.xcdatamodeld */,
+				01ED41ED27A5A4B900BB944C /* TrackModel.xcdatamodeld */,
 			);
-			path = AnikaApp;
+			path = MultiTrackPlayer;
 			sourceTree = "<group>";
 		};
-		01ED41FD27A5A4BA00BB944C /* AnikaAppTests */ = {
+		01ED41FD27A5A4BA00BB944C /* MultiTrackPlayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				01ED41FE27A5A4BA00BB944C /* AnikaAppTests.swift */,
+				01ED41FE27A5A4BA00BB944C /* MultiTrackPlayerAppTests.swift */,
+				0184286227B29DA80031CA22 /* MusicPlayerTests.swift */,
 			);
-			path = AnikaAppTests;
+			path = MultiTrackPlayerTests;
 			sourceTree = "<group>";
 		};
-		01ED420727A5A4BA00BB944C /* AnikaAppUITests */ = {
+		01ED420727A5A4BA00BB944C /* MultiTrackPlayerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				01ED420827A5A4BA00BB944C /* AnikaAppUITests.swift */,
-				01ED420A27A5A4BA00BB944C /* AnikaAppUITestsLaunchTests.swift */,
+				01ED420827A5A4BA00BB944C /* MultiTrackPlayerUITests.swift */,
+				01ED420A27A5A4BA00BB944C /* MultiTrackPlayerUITestsLaunchTests.swift */,
 			);
-			path = AnikaAppUITests;
+			path = MultiTrackPlayerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01ED41E027A5A4B900BB944C /* AnikaApp */ = {
+		01ED41E027A5A4B900BB944C /* MultiTrackPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01ED420E27A5A4BA00BB944C /* Build configuration list for PBXNativeTarget "AnikaApp" */;
+			buildConfigurationList = 01ED420E27A5A4BA00BB944C /* Build configuration list for PBXNativeTarget "MultiTrackPlayer" */;
 			buildPhases = (
 				01ED41DD27A5A4B900BB944C /* Sources */,
 				01ED41DE27A5A4B900BB944C /* Frameworks */,
@@ -267,14 +297,14 @@
 			);
 			dependencies = (
 			);
-			name = AnikaApp;
+			name = MultiTrackPlayer;
 			productName = AnikaApp;
-			productReference = 01ED41E127A5A4B900BB944C /* AnikaApp.app */;
+			productReference = 01ED41E127A5A4B900BB944C /* MultiTrackPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		01ED41F927A5A4BA00BB944C /* AnikaAppTests */ = {
+		01ED41F927A5A4BA00BB944C /* MultiTrackPlayerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01ED421127A5A4BA00BB944C /* Build configuration list for PBXNativeTarget "AnikaAppTests" */;
+			buildConfigurationList = 01ED421127A5A4BA00BB944C /* Build configuration list for PBXNativeTarget "MultiTrackPlayerTests" */;
 			buildPhases = (
 				01ED41F627A5A4BA00BB944C /* Sources */,
 				01ED41F727A5A4BA00BB944C /* Frameworks */,
@@ -285,14 +315,14 @@
 			dependencies = (
 				01ED41FC27A5A4BA00BB944C /* PBXTargetDependency */,
 			);
-			name = AnikaAppTests;
+			name = MultiTrackPlayerTests;
 			productName = AnikaAppTests;
-			productReference = 01ED41FA27A5A4BA00BB944C /* AnikaAppTests.xctest */;
+			productReference = 01ED41FA27A5A4BA00BB944C /* MultiTrackPlayerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		01ED420327A5A4BA00BB944C /* AnikaAppUITests */ = {
+		01ED420327A5A4BA00BB944C /* MultiTrackPlayerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01ED421427A5A4BA00BB944C /* Build configuration list for PBXNativeTarget "AnikaAppUITests" */;
+			buildConfigurationList = 01ED421427A5A4BA00BB944C /* Build configuration list for PBXNativeTarget "MultiTrackPlayerUITests" */;
 			buildPhases = (
 				01ED420027A5A4BA00BB944C /* Sources */,
 				01ED420127A5A4BA00BB944C /* Frameworks */,
@@ -303,9 +333,9 @@
 			dependencies = (
 				01ED420627A5A4BA00BB944C /* PBXTargetDependency */,
 			);
-			name = AnikaAppUITests;
+			name = MultiTrackPlayerUITests;
 			productName = AnikaAppUITests;
-			productReference = 01ED420427A5A4BA00BB944C /* AnikaAppUITests.xctest */;
+			productReference = 01ED420427A5A4BA00BB944C /* MultiTrackPlayerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -331,7 +361,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 01ED41DC27A5A4B900BB944C /* Build configuration list for PBXProject "AnikaApp" */;
+			buildConfigurationList = 01ED41DC27A5A4B900BB944C /* Build configuration list for PBXProject "MultiTrackPlayer" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -344,9 +374,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01ED41E027A5A4B900BB944C /* AnikaApp */,
-				01ED41F927A5A4BA00BB944C /* AnikaAppTests */,
-				01ED420327A5A4BA00BB944C /* AnikaAppUITests */,
+				01ED41E027A5A4B900BB944C /* MultiTrackPlayer */,
+				01ED41F927A5A4BA00BB944C /* MultiTrackPlayerTests */,
+				01ED420327A5A4BA00BB944C /* MultiTrackPlayerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -356,20 +386,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0184285F27B26B770031CA22 /* RWY_other.mp3 in Resources */,
+				0184285727B26B770031CA22 /* RWY_keyboards2.mp3 in Resources */,
 				0184282B27A9F04C0031CA22 /* backpocket_backingvocals.mp3 in Resources */,
 				0184282A27A9F04C0031CA22 /* backpocket_percussion.mp3 in Resources */,
+				0184285D27B26B770031CA22 /* RWY_trumpet.mp3 in Resources */,
+				0184285A27B26B770031CA22 /* RWY_backingvocals.mp3 in Resources */,
 				0184282D27A9F04C0031CA22 /* backpocket_saxophone.mp3 in Resources */,
 				01ED421A27A5A53A00BB944C /* TrackViewController.xib in Resources */,
+				0184285E27B26B770031CA22 /* RWY_vocals.mp3 in Resources */,
 				0184282827A9F04C0031CA22 /* backpocket_trumpet.mp3 in Resources */,
+				0184285C27B26B770031CA22 /* RWY_bass.mp3 in Resources */,
+				0184286027B26B770031CA22 /* RWY_other2.mp3 in Resources */,
 				01ED41F427A5A4BA00BB944C /* LaunchScreen.storyboard in Resources */,
-				0184283A27ADD3BC0031CA22 /* Booom_drums.mp3 in Resources */,
+				0184285927B26B770031CA22 /* RWY_guitar2.mp3 in Resources */,
 				0184282727A9F04C0031CA22 /* backpocket_vocals.mp3 in Resources */,
+				0184286127B26B770031CA22 /* RWY_keyboards.mp3 in Resources */,
 				0184282627A9F04C0031CA22 /* backpocket_bass.mp3 in Resources */,
 				01ED41F127A5A4BA00BB944C /* Assets.xcassets in Resources */,
-				0184283927ADD3BC0031CA22 /* Booom_keyboards.mp3 in Resources */,
-				0184283B27ADD3BC0031CA22 /* Booom_guitar.mp3 in Resources */,
 				0184282927A9F04C0031CA22 /* backpocket_guitar.mp3 in Resources */,
 				01ED41EC27A5A4B900BB944C /* Main.storyboard in Resources */,
+				0184285627B26B770031CA22 /* RWY_guitar.mp3 in Resources */,
+				0184285B27B26B770031CA22 /* RWY_drums.mp3 in Resources */,
+				0184285827B26B770031CA22 /* RWY_backingvocals2.mp3 in Resources */,
 				0184282C27A9F04C0031CA22 /* backpocket_keyboards.mp3 in Resources */,
 				0184282E27A9F04C0031CA22 /* backpocket_drums.mp3 in Resources */,
 			);
@@ -403,7 +442,7 @@
 				0184284527B1C8CF0031CA22 /* MockMusicPlayer.swift in Sources */,
 				01ED41E527A5A4B900BB944C /* AppDelegate.swift in Sources */,
 				01ED421C27A609B700BB944C /* MusicPlayer.swift in Sources */,
-				01ED41EF27A5A4B900BB944C /* AnikaApp.xcdatamodeld in Sources */,
+				01ED41EF27A5A4B900BB944C /* TrackModel.xcdatamodeld in Sources */,
 				01ED423827A69B6400BB944C /* SheetMusicViewController.swift in Sources */,
 				0184283127ADC0910031CA22 /* LoadSongViewController.swift in Sources */,
 				0184284927B266890031CA22 /* Track.swift in Sources */,
@@ -416,7 +455,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01ED41FF27A5A4BA00BB944C /* AnikaAppTests.swift in Sources */,
+				0184286327B29DA80031CA22 /* MusicPlayerTests.swift in Sources */,
+				01ED41FF27A5A4BA00BB944C /* MultiTrackPlayerAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,8 +464,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01ED420B27A5A4BA00BB944C /* AnikaAppUITestsLaunchTests.swift in Sources */,
-				01ED420927A5A4BA00BB944C /* AnikaAppUITests.swift in Sources */,
+				01ED420B27A5A4BA00BB944C /* MultiTrackPlayerUITestsLaunchTests.swift in Sources */,
+				01ED420927A5A4BA00BB944C /* MultiTrackPlayerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,12 +474,12 @@
 /* Begin PBXTargetDependency section */
 		01ED41FC27A5A4BA00BB944C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01ED41E027A5A4B900BB944C /* AnikaApp */;
+			target = 01ED41E027A5A4B900BB944C /* MultiTrackPlayer */;
 			targetProxy = 01ED41FB27A5A4BA00BB944C /* PBXContainerItemProxy */;
 		};
 		01ED420627A5A4BA00BB944C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01ED41E027A5A4B900BB944C /* AnikaApp */;
+			target = 01ED41E027A5A4B900BB944C /* MultiTrackPlayer */;
 			targetProxy = 01ED420527A5A4BA00BB944C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -591,7 +631,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F97FE5Z68U;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnikaApp/Info.plist;
+				INFOPLIST_FILE = MultiTrackPlayer/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MultiTrackPlayer;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -621,7 +661,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F97FE5Z68U;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnikaApp/Info.plist;
+				INFOPLIST_FILE = MultiTrackPlayer/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MultiTrackPlayer;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -658,7 +698,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnikaApp.app/AnikaApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiTrackPlayer.app/MultiTrackPlayer";
 			};
 			name = Debug;
 		};
@@ -678,7 +718,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnikaApp.app/AnikaApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiTrackPlayer.app/MultiTrackPlayer";
 			};
 			name = Release;
 		};
@@ -721,7 +761,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01ED41DC27A5A4B900BB944C /* Build configuration list for PBXProject "AnikaApp" */ = {
+		01ED41DC27A5A4B900BB944C /* Build configuration list for PBXProject "MultiTrackPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01ED420C27A5A4BA00BB944C /* Debug */,
@@ -730,7 +770,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01ED420E27A5A4BA00BB944C /* Build configuration list for PBXNativeTarget "AnikaApp" */ = {
+		01ED420E27A5A4BA00BB944C /* Build configuration list for PBXNativeTarget "MultiTrackPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01ED420F27A5A4BA00BB944C /* Debug */,
@@ -739,7 +779,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01ED421127A5A4BA00BB944C /* Build configuration list for PBXNativeTarget "AnikaAppTests" */ = {
+		01ED421127A5A4BA00BB944C /* Build configuration list for PBXNativeTarget "MultiTrackPlayerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01ED421227A5A4BA00BB944C /* Debug */,
@@ -748,7 +788,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01ED421427A5A4BA00BB944C /* Build configuration list for PBXNativeTarget "AnikaAppUITests" */ = {
+		01ED421427A5A4BA00BB944C /* Build configuration list for PBXNativeTarget "MultiTrackPlayerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01ED421527A5A4BA00BB944C /* Debug */,
@@ -760,13 +800,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		01ED41ED27A5A4B900BB944C /* AnikaApp.xcdatamodeld */ = {
+		01ED41ED27A5A4B900BB944C /* TrackModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				01ED41EE27A5A4B900BB944C /* AnikaApp.xcdatamodel */,
 			);
 			currentVersion = 01ED41EE27A5A4B900BB944C /* AnikaApp.xcdatamodel */;
-			path = AnikaApp.xcdatamodeld;
+			path = TrackModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
