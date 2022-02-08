@@ -11,8 +11,9 @@ import AVFoundation
 class SongLoader {
     
     var song: Song?
-    var tracks = [Track]()
-    var musicPlayer: MusicPlayerProtocol = MusicPlayer.shared
+    private var tracks = [Track]()
+    private var musicPlayer: MusicPlayerProtocol = MusicPlayer.shared
+    private var loadedInstruments = [String]()
     
     func changeSong(to song: Song) {
         tracks = []
@@ -36,7 +37,23 @@ class SongLoader {
     
     func loadAudioFile(for instrument: String) -> AVAudioFile {
         var file = AVAudioFile()
-        let url = Bundle.main.path(forResource: "\(song!.title)_\(instrument)", ofType: "mp3")
+        var count = ""
+        // Needs fixing. Not very elegant
+        if loadedInstruments.contains(where: {$0 == instrument}) {
+            var c: Int {
+                var count = 0
+                for instr in loadedInstruments {
+                    if instr == instrument {
+                        count += 1
+                    }
+                }
+                return count
+            }
+            count = "\(c+1)"
+        }
+        
+        loadedInstruments.append(instrument)
+        let url = Bundle.main.path(forResource: "\(song!.title)_\(instrument)\(count)", ofType: "mp3")
         do {
             file = try AVAudioFile(forReading: URL(fileURLWithPath: url!))
         } catch {

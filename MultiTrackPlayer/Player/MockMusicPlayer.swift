@@ -21,11 +21,11 @@ class MockMusicPlayer: MusicPlayerProtocol {
     var audioPlayers = [AVAudioPlayerNode]()
     var audioFiles = [AVAudioFile]()
     var numberOfTracks = 0
-    var now = AVAudioFramePosition(0)
-    var timer = Timer()
-    var songLength: AVAudioFrameCount?
-    var stoppedTime: AVAudioTime = AVAudioTime(sampleTime: AVAudioFramePosition(0), atRate: 44100)
-    var sampleRate: Double = 44100
+    private var now = AVAudioFramePosition(0)
+    private var timer = Timer()
+    private var songLength: AVAudioFrameCount?
+    private var stoppedTime: AVAudioTime = AVAudioTime(sampleTime: AVAudioFramePosition(0), atRate: 44100)
+    private var sampleRate: Double = 44100
     
     var pitchNode = AVAudioUnitTimePitch()
     var delegate: Scrollable?
@@ -128,7 +128,7 @@ class MockMusicPlayer: MusicPlayerProtocol {
         timer.invalidate()
     }
     
-    func jumpAudio(with value: Float) {
+    func jumpAudio(to value: Float) {
         stopAllTracks()
         now = AVAudioFramePosition(Float(songLength!) * value)
         delegate?.updateSlider(value: value)

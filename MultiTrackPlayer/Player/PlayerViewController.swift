@@ -76,7 +76,7 @@ class PlayerViewController: UIViewController, Scrollable {
         if sender.isSelected {
             musicPlayer.stopAllTracks()
         }
-        musicPlayer.jumpAudio(with: sender.value)
+        musicPlayer.jumpAudio(to: sender.value)
     }
     
 }

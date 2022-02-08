@@ -13,7 +13,7 @@
         <!--SongLoader-->
         <scene sceneID="OK8-gq-Qmc">
             <objects>
-                <viewController id="Ods-CN-Ako" customClass="LoadSongViewController" customModule="AnikaApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ods-CN-Ako" customClass="LoadSongViewController" customModule="MultiTrackPlayer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jsH-iW-Xyu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,7 +95,7 @@
         <!--Player-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="PlayerViewController" customModule="AnikaApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="PlayerViewController" customModule="MultiTrackPlayer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -199,7 +199,7 @@
         <!--Settings-->
         <scene sceneID="xlM-Pw-iux">
             <objects>
-                <viewController id="DOM-eL-jqz" customClass="SettingsViewController" customModule="AnikaApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DOM-eL-jqz" customClass="SettingsViewController" customModule="MultiTrackPlayer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rTW-4n-sju">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -281,12 +281,12 @@
         <!--Sheet-->
         <scene sceneID="FB2-mg-Tez">
             <objects>
-                <viewController id="Cr1-jo-0rt" customClass="SheetMusicViewController" customModule="AnikaApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Cr1-jo-0rt" customClass="SheetMusicViewController" customModule="MultiTrackPlayer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dFa-a4-Z5j">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="littlegreener" translatesAutoresizingMaskIntoConstraints="NO" id="PTT-Sa-qfI">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rwy" translatesAutoresizingMaskIntoConstraints="NO" id="PTT-Sa-qfI">
                                 <rect key="frame" x="20" y="61" width="374" height="735"/>
                             </imageView>
                         </subviews>
@@ -333,10 +333,10 @@
         <image name="chart.bar.doc.horizontal.fill" catalog="system" width="115" height="128"/>
         <image name="drums" width="512" height="512"/>
         <image name="list.bullet" catalog="system" width="128" height="88"/>
-        <image name="littlegreener" width="612" height="792"/>
         <image name="music.note.list" catalog="system" width="128" height="115"/>
         <image name="music.quarternote.3" catalog="system" width="128" height="103"/>
         <image name="play.fill" catalog="system" width="116" height="128"/>
+        <image name="rwy" width="612" height="792"/>
         <image name="stop.fill" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

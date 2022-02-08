@@ -21,15 +21,11 @@ protocol MusicPlayerProtocol {
     func playAllTracks()
     func pauseAllTracks()
     func stopAllTracks()
-    func jumpAudio(with value: Float)
+    func jumpAudio(to value: Float)
     func soloTrack(number: Int, isSolod: Bool)
     
     var delegate: Scrollable? { get set }
     var chosenSong: Song? { get set }
-    var audioFiles: [AVAudioFile] { get set }
-    var audioPlayers: [AVAudioPlayerNode] { get set }
-    var numberOfTracks: Int { get set }
-    var audioEngine: AVAudioEngine { get set }
     var tracks: [Track] { get set }
     var instruments: [Instrument] { get set }
 }
@@ -41,12 +37,12 @@ class MusicPlayer: MusicPlayerProtocol {
     private let session = AVAudioSession.sharedInstance()
     private let audioFormat = AVAudioFormat(standardFormatWithSampleRate: 44100, channels: 2)
 
-    var audioEngine = AVAudioEngine()
+    private var audioEngine = AVAudioEngine()
     private var mainMixer = AVAudioMixerNode()
     private var trackMixer = AVAudioMixerNode()
-    var audioPlayers = [AVAudioPlayerNode]()
-    var audioFiles = [AVAudioFile]()
-    var numberOfTracks = 0
+    private var audioPlayers = [AVAudioPlayerNode]()
+    private var audioFiles = [AVAudioFile]()
+    private var numberOfTracks = 0
     private var now = AVAudioFramePosition(0)
     private var timer = Timer()
     private var songLength: AVAudioFrameCount?
@@ -157,7 +153,7 @@ class MusicPlayer: MusicPlayerProtocol {
         timer.invalidate()
     }
     
-    func jumpAudio(with value: Float) {
+    func jumpAudio(to value: Float) {
         stopAllTracks()
         now = AVAudioFramePosition(Float(songLength!) * value)
         delegate?.updateSlider(value: value)

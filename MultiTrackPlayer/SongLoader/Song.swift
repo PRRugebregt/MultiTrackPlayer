@@ -28,15 +28,24 @@ struct SongList {
     
     init() {
         
-        songs.append(Song(title: "Booom",
-                          artist: "Anika Nilles",
+        songs.append(Song(title: "RWY",
+                          artist: "Michael Jackson",
                           instruments: [
                             .drums,
+                            .bass,
+                            .vocals,
                             .guitar,
+                            .guitar,
+                            .backingvocals,
+                            .backingvocals,
+                            .trumpet,
+                            .other,
+                            .other,
+                            .keyboards,
                             .keyboards
                         ],
-                          tempo: 100,
-                          key: .Bb))
+                          tempo: 115,
+                          key: .Db))
         songs.append(Song(title: "backpocket",
                           artist: "VulfPeck",
                           instruments: [

@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import AnikaApp
+@testable import MultiTrackPlayer
 
 class AnikaAppTests: XCTestCase {
 
@@ -15,7 +15,21 @@ class AnikaAppTests: XCTestCase {
     override func setUpWithError() throws {
         try! super.setUpWithError()
         sut = SongLoader()
-        sut?.song = Song(title: "Booom", artist: "Anika Nilles", instruments: [.drums,.guitar,.keyboards], tempo: 120, key: .Bb)
+        sut?.song = Song(title: "backpocket",
+                         artist: "VulfPeck",
+                         instruments: [
+                           .drums,
+                           .bass,
+                           .keyboards,
+                           .guitar,
+                           .trumpet,
+                           .saxophone,
+                           .vocals,
+                           .backingvocals,
+                           .percussion
+                       ],
+                         tempo: 90,
+                         key: .Bb)
     }
 
     override func tearDownWithError() throws {
@@ -25,28 +39,16 @@ class AnikaAppTests: XCTestCase {
     func testNumberOfInstruments() throws {
 
         let numberOfInstruments = sut?.song?.instruments.count
-        sut?.loadAllInstruments()
-        XCTAssert(sut?.tracks.count == numberOfInstruments)
-        XCTAssert(sut?.musicPlayer.audioFiles.count == numberOfInstruments)
-        XCTAssert(sut?.musicPlayer.audioPlayers.count == numberOfInstruments)
-        XCTAssert(sut?.musicPlayer.numberOfTracks == numberOfInstruments)
-    
-    }
-    
-    func testStopAudio() throws {
-        sut?.loadAllInstruments()
-        let musicplayer = MusicPlayer.shared
-        musicplayer.removeAllTracks()
-        XCTAssert(!musicplayer.audioEngine.isRunning)
-        XCTAssert(musicplayer.audioFiles.isEmpty)
-        XCTAssert(musicplayer.audioPlayers.isEmpty)
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            sut?.loadAllInstruments()
+        expectation(forNotification: .loadNewTrack, object: nil) { notification in
+            let newTracks = notification.userInfo?["tracks"] as! [Track]
+            let newInstruments = notification.userInfo?["instrumentTracks"] as! [Instrument]
+            XCTAssert(newTracks.count == numberOfInstruments)
+            XCTAssert(newInstruments.count == numberOfInstruments)
+            return true
         }
+        sut?.loadAllInstruments()
+        waitForExpectations(timeout: 2, handler: nil)
+        
     }
 
 }
