@@ -24,6 +24,7 @@ class SongLoader {
     
     func changeSong(to song: Song) {
         tracks = []
+        loadedInstruments = []
         self.song = song
         musicPlayer.chosenSong = song
         do {
@@ -48,7 +49,7 @@ class SongLoader {
                 loadedInstruments = []
                 tracks = []
                 DispatchQueue.main.async {
-                    self.delegate?.showAlert(title: "Woops", message: "\(descriptionError.rawValue)")
+                    self.delegate?.showAlert(title: "Woops", message: "\(descriptionError.rawValue) for \(instruments[i].rawValue)")
                 }
                 throw descriptionError
             }
