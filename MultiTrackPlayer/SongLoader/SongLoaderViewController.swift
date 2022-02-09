@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoadSongViewController: UIViewController {
+class SongLoaderViewController: UIViewController {
 
     @IBOutlet weak var songTableView: UITableView!
     @IBOutlet weak var loadButton: UIButton!
@@ -21,6 +21,7 @@ class LoadSongViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        songLoader.delegate = self
         NotificationCenter.default.addObserver(self, selector: #selector(songWasLoaded), name: .loadNewTrack, object: nil)
         songTableView.delegate = self
         songTableView.dataSource = self
@@ -44,15 +45,21 @@ class LoadSongViewController: UIViewController {
         songLoader.changeSong(to: chosenSong)
     }
     
+    func showAlert(title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
 }
 
-extension LoadSongViewController: UITableViewDelegate {
+extension SongLoaderViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         chosenSong = songs[indexPath.row]
     }
 }
 
-extension LoadSongViewController: UITableViewDataSource {
+extension SongLoaderViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         songs.count

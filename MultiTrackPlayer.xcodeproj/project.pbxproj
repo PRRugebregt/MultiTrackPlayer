@@ -16,7 +16,7 @@
 		0184282C27A9F04C0031CA22 /* backpocket_keyboards.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184282327A9F04C0031CA22 /* backpocket_keyboards.mp3 */; };
 		0184282D27A9F04C0031CA22 /* backpocket_saxophone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184282427A9F04C0031CA22 /* backpocket_saxophone.mp3 */; };
 		0184282E27A9F04C0031CA22 /* backpocket_drums.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184282527A9F04C0031CA22 /* backpocket_drums.mp3 */; };
-		0184283127ADC0910031CA22 /* LoadSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184283027ADC0910031CA22 /* LoadSongViewController.swift */; };
+		0184283127ADC0910031CA22 /* SongLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184283027ADC0910031CA22 /* SongLoaderViewController.swift */; };
 		0184283327ADC2F80031CA22 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184283227ADC2F80031CA22 /* Song.swift */; };
 		0184283527ADC6770031CA22 /* SongLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184283427ADC6770031CA22 /* SongLoader.swift */; };
 		0184284127AF2D720031CA22 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184284027AF2D720031CA22 /* SettingsViewController.swift */; };
@@ -28,7 +28,7 @@
 		0184285927B26B770031CA22 /* RWY_guitar2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184284D27B26B760031CA22 /* RWY_guitar2.mp3 */; };
 		0184285A27B26B770031CA22 /* RWY_backingvocals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184284E27B26B760031CA22 /* RWY_backingvocals.mp3 */; };
 		0184285B27B26B770031CA22 /* RWY_drums.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184284F27B26B760031CA22 /* RWY_drums.mp3 */; };
-		0184285C27B26B770031CA22 /* RWY_bass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184285027B26B770031CA22 /* RWY_bass.mp3 */; };
+		0184285C27B26B770031CA22 /* RWY_bas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184285027B26B770031CA22 /* RWY_bas.mp3 */; };
 		0184285D27B26B770031CA22 /* RWY_trumpet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184285127B26B770031CA22 /* RWY_trumpet.mp3 */; };
 		0184285E27B26B770031CA22 /* RWY_vocals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184285227B26B770031CA22 /* RWY_vocals.mp3 */; };
 		0184285F27B26B770031CA22 /* RWY_other.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0184285327B26B770031CA22 /* RWY_other.mp3 */; };
@@ -78,7 +78,7 @@
 		0184282327A9F04C0031CA22 /* backpocket_keyboards.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backpocket_keyboards.mp3; sourceTree = "<group>"; };
 		0184282427A9F04C0031CA22 /* backpocket_saxophone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backpocket_saxophone.mp3; sourceTree = "<group>"; };
 		0184282527A9F04C0031CA22 /* backpocket_drums.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backpocket_drums.mp3; sourceTree = "<group>"; };
-		0184283027ADC0910031CA22 /* LoadSongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadSongViewController.swift; sourceTree = "<group>"; };
+		0184283027ADC0910031CA22 /* SongLoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongLoaderViewController.swift; sourceTree = "<group>"; };
 		0184283227ADC2F80031CA22 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		0184283427ADC6770031CA22 /* SongLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongLoader.swift; sourceTree = "<group>"; };
 		0184284027AF2D720031CA22 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		0184284D27B26B760031CA22 /* RWY_guitar2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_guitar2.mp3; sourceTree = "<group>"; };
 		0184284E27B26B760031CA22 /* RWY_backingvocals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_backingvocals.mp3; sourceTree = "<group>"; };
 		0184284F27B26B760031CA22 /* RWY_drums.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_drums.mp3; sourceTree = "<group>"; };
-		0184285027B26B770031CA22 /* RWY_bass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_bass.mp3; sourceTree = "<group>"; };
+		0184285027B26B770031CA22 /* RWY_bas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_bas.mp3; sourceTree = "<group>"; };
 		0184285127B26B770031CA22 /* RWY_trumpet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_trumpet.mp3; sourceTree = "<group>"; };
 		0184285227B26B770031CA22 /* RWY_vocals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_vocals.mp3; sourceTree = "<group>"; };
 		0184285327B26B770031CA22 /* RWY_other.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RWY_other.mp3; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				0184284E27B26B760031CA22 /* RWY_backingvocals.mp3 */,
-				0184285027B26B770031CA22 /* RWY_bass.mp3 */,
+				0184285027B26B770031CA22 /* RWY_bas.mp3 */,
 				0184285127B26B770031CA22 /* RWY_trumpet.mp3 */,
 				0184284F27B26B760031CA22 /* RWY_drums.mp3 */,
 				0184284A27B26B760031CA22 /* RWY_guitar.mp3 */,
@@ -202,7 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				0184283427ADC6770031CA22 /* SongLoader.swift */,
-				0184283027ADC0910031CA22 /* LoadSongViewController.swift */,
+				0184283027ADC0910031CA22 /* SongLoaderViewController.swift */,
 				0184283227ADC2F80031CA22 /* Song.swift */,
 			);
 			path = SongLoader;
@@ -396,7 +396,7 @@
 				01ED421A27A5A53A00BB944C /* TrackViewController.xib in Resources */,
 				0184285E27B26B770031CA22 /* RWY_vocals.mp3 in Resources */,
 				0184282827A9F04C0031CA22 /* backpocket_trumpet.mp3 in Resources */,
-				0184285C27B26B770031CA22 /* RWY_bass.mp3 in Resources */,
+				0184285C27B26B770031CA22 /* RWY_bas.mp3 in Resources */,
 				0184286027B26B770031CA22 /* RWY_other2.mp3 in Resources */,
 				01ED41F427A5A4BA00BB944C /* LaunchScreen.storyboard in Resources */,
 				0184285927B26B770031CA22 /* RWY_guitar2.mp3 in Resources */,
@@ -444,7 +444,7 @@
 				01ED421C27A609B700BB944C /* MusicPlayer.swift in Sources */,
 				01ED41EF27A5A4B900BB944C /* TrackModel.xcdatamodeld in Sources */,
 				01ED423827A69B6400BB944C /* SheetMusicViewController.swift in Sources */,
-				0184283127ADC0910031CA22 /* LoadSongViewController.swift in Sources */,
+				0184283127ADC0910031CA22 /* SongLoaderViewController.swift in Sources */,
 				0184284927B266890031CA22 /* Track.swift in Sources */,
 				01ED41E727A5A4B900BB944C /* SceneDelegate.swift in Sources */,
 				01ED421927A5A53A00BB944C /* TrackViewController.swift in Sources */,

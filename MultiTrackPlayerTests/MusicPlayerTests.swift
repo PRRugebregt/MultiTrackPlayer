@@ -22,7 +22,7 @@ class MusicPlayerTests: XCTestCase {
         try super.tearDownWithError()
     }
 
-    func testEngineHasStopped() throws {
+    func testEngineIsRunning() throws {
         sut?.startEngine()
         XCTAssert(sut!.audioEngine.isRunning)
     }
@@ -32,5 +32,7 @@ class MusicPlayerTests: XCTestCase {
         XCTAssert(sut!.audioEngine.attachedNodes.contains(where: {$0 == sut!.trackMixer}))
         XCTAssert(sut!.audioEngine.attachedNodes.contains(where: {$0 == sut!.pitchNode}))
     }
+    
+    
 
 }

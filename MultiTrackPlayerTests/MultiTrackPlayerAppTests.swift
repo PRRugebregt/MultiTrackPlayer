@@ -8,14 +8,15 @@
 import XCTest
 @testable import MultiTrackPlayer
 
-class AnikaAppTests: XCTestCase {
+class MultiTrackPlayerAppTests: XCTestCase {
 
     var sut: SongLoader?
+    var song: Song?
     
     override func setUpWithError() throws {
         try! super.setUpWithError()
         sut = SongLoader()
-        sut?.song = Song(title: "backpocket",
+        song = Song(title: "backpocket",
                          artist: "VulfPeck",
                          instruments: [
                            .drums,
@@ -37,18 +38,33 @@ class AnikaAppTests: XCTestCase {
     }
 
     func testNumberOfInstruments() throws {
-
+        sut?.changeSong(to: song!)
+        var fetchedNotification: Notification?
         let numberOfInstruments = sut?.song?.instruments.count
+        do {
+            try sut?.loadAllInstruments()
+        } catch {
+            let fullError = error as! FileError
+            XCTAssertNotNil(fetchedNotification, fullError.rawValue)
+            return
+        }
         expectation(forNotification: .loadNewTrack, object: nil) { notification in
+            fetchedNotification = notification
             let newTracks = notification.userInfo?["tracks"] as! [Track]
             let newInstruments = notification.userInfo?["instrumentTracks"] as! [Instrument]
             XCTAssert(newTracks.count == numberOfInstruments)
             XCTAssert(newInstruments.count == numberOfInstruments)
             return true
         }
-        sut?.loadAllInstruments()
-        waitForExpectations(timeout: 2, handler: nil)
+        waitForExpectations(timeout: 2) { error in
+            XCTAssertNil(error)
+        }
         
+    }
+    
+    func testChangingSong() throws {
+        sut?.changeSong(to: song!)
+        XCTAssertNotNil(sut?.song)
     }
 
 }
